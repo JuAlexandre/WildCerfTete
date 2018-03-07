@@ -1,8 +1,12 @@
+/* Global */
+
 html, body {
     width: 100%;
     height: 100%;
     font-family: 'Raleway', sans-serif;
 }
+
+/* Header */
 
 .header {
     display: table;
@@ -27,4 +31,16 @@ html, body {
 
 .header .header-text h1 {
     font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black;
 }
+
+.deer {
+    background-color: white;
+}
+
+/* Section : #why */
+
+/*
+#why {
+    background-color: #faa143;
+}*/
