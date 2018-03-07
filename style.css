@@ -10,7 +10,17 @@ html, body {
 	padding: 0 10vw; 
 }
 
+h3
+{
+	font-size: 2em;
+	padding-top: 5%;
+	padding-bottom: 5%; 
 
+}
+p
+{
+	line-height: 200%; 
+}
 /* Header */
 
 .header {
@@ -35,12 +45,13 @@ html, body {
 }
 
 .header .header-text h1 {
-    font-size: 3.5rem;
+    /*font-size: 3.5rem;*/
     text-shadow: 1px 1px 1px black;
 }
 
 .deer {
     background-color: white;
+    max-height: 70vh;
 }
 
 /* Characteristics */
@@ -49,7 +60,10 @@ html, body {
 	background-color: #FF6600; 
 	color: white; 
 }
-
+.fa-4x
+{ 
+	line-height: inherit;
+} 
 /* How it works */
 
 
@@ -71,13 +85,17 @@ html, body {
 	margin-bottom: 2%;
 }
 
+
 /* About us */
 
 #aboutUs {
 	background-color: #FF6600; 
 	color: white; 
 }
+.network
+{
 
+}
 /* Footer */
 
 footer {
