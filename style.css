@@ -6,6 +6,11 @@ html, body {
     font-family: 'Raleway', sans-serif;
 }
 
+.text-justify {
+	padding: 0 10vw; 
+}
+
+
 /* Header */
 
 .header {
@@ -38,9 +43,43 @@ html, body {
     background-color: white;
 }
 
-/* Section : #why */
+/* Characteristics */
 
-/*
-#why {
-    background-color: #faa143;
-}*/
+#characteristics {
+	background-color: #FF6600; 
+	color: white; 
+}
+
+/* How it works */
+
+
+/* Preorder */
+
+.form-control {
+	width: 30vw; 
+}
+
+#preorder {
+	background-color: #FF6600; 
+	color: white; 
+}
+
+
+/* Photos */
+
+.picture {
+	margin-bottom: 2%;
+}
+
+/* About us */
+
+#aboutUs {
+	background-color: #FF6600; 
+	color: white; 
+}
+
+/* Footer */
+
+footer {
+	background-color: grey;
+}
