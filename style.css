@@ -19,9 +19,9 @@ html, body {
     width: 100%;
     height: 100%;
     background: url(img/wood_fonce.jpg) no-repeat center center scroll;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
 }
 
@@ -31,16 +31,44 @@ html, body {
 
 .header .header-text {
     color: white;
-    font-weight: 600;
+    
 }
 
 .header .header-text h1 {
-    font-size: 3.5rem;
+    font-size: calc(29px + (56 - 29) * (100vw - 400px) / 1200);
+    font-weight: 600;
+    /*
+        calc(police_min px + (police_max - police_min) * (100vw - 400px) / (resolution_max - resolution_min))
+    */
     text-shadow: 1px 1px 1px black;
+}
+
+.avalaible {
+    color: #FF6600;
+    margin-top: 40px;
 }
 
 .deer {
     background-color: white;
+}
+
+
+.price {
+    position: relative;
+    top: -90px;
+}
+
+.price span {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.deer:hover .price {
+    display: none;
 }
 
 /* Characteristics */
