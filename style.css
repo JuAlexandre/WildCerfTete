@@ -1,19 +1,19 @@
 /* Global */
 
-@font-face
-{
+@font-face {
     font-family: 'Caviar Dreams';
     src: url('fonts/CaviarDreams.ttf');
 }
-@font-face
-{
+
+@font-face {
     font-family: 'Caviar Dreams Bold';
     src: url('fonts/CaviarDreams_Bold.ttf');
 }
+
 html, body {
     width: 100%;
     height: 100%;
-    font-family:'Open Sans', sans-serif;;
+    font-family: 'Open Sans';
 }
 
 .text-justify {
@@ -62,22 +62,16 @@ section {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
-    background: url(img/background.jpeg) no-repeat center center scroll;
+    height: 100vh;
+    background: url(img/forest.jpg) no-repeat center center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
-/*
-.header img {
-    height: 70vh;
-}
-*/
-
-.header .row {
-    height: 100vh;
+.header .row:first-child {
+/*    height: 100vh;*/
 }
 
 .header .header-text {
@@ -85,11 +79,48 @@ section {
 }
 
 .header .header-text h1 {
-    font-size: calc(29px + (56 - 29) * (100vw - 400px) / 1200);
-    font-weight: 600;
+    font-size: calc(29px + (46 - 29) * (100vw - 400px) / 1200);
+    font-family: 'Caviar Dreams Bold';
+    color: #FF6600;
     /*
         calc(police_min px + (police_max - police_min) * (100vw - 400px) / (resolution_max - resolution_min))
     */
+}
+
+.header .header-text h1 .title-color {
+    color: white;
+}
+
+.subtitle {
+    font-family:'Open Sans';
+    font-weight: 300;
+    font-size: calc(30px + (30 - 30) * (100vw - 400px) / 1200);
+}
+
+.btn-more-info {
+    font-family:'Open Sans';
+    font-weight: bold;
+    background-color: rgba(255,255,255,0);
+    color: white;
+    border: 3px solid #FF6600;
+    border-radius: 7px;
+    padding: 7px 30px 7px 30px;
+/*    margin-right: 30px;*/
+}
+
+.btn-preorder {
+    font-family:'Open Sans';
+    font-weight: bold;
+    background-color: white;
+    color: #FF6600;
+    border: 3px solid #FF6600;
+    border-radius: 7px;
+    padding: 7px 30px 7px 30px;
+}
+
+.price {
+    font-family:'Open Sans';
+    font-weight: 300;
 }
 
 
