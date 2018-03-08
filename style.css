@@ -1,9 +1,19 @@
 /* Global */
 
+@font-face
+{
+    font-family: 'Caviar Dreams';
+    src: url('fonts/CaviarDreams.ttf');
+}
+@font-face
+{
+    font-family: 'Caviar Dreams Bold';
+    src: url('fonts/CaviarDreams_Bold.ttf');
+}
 html, body {
     width: 100%;
     height: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family:'Open Sans', sans-serif;;
 }
 
 .text-justify {
@@ -15,6 +25,7 @@ h2 {
 	padding-top: 5%;
 	padding-bottom: 5%; 
     text-align: center;
+    font-family: 'Caviar Dreams';
 
 }
 
