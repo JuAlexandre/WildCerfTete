@@ -22,10 +22,11 @@ html, body {
 
 h2 {
 	font-size: 1.8em;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-bottom: 5%; 
     text-align: center;
     font-family: 'Caviar Dreams';
+    color: #FF6600;
 
 }
 
@@ -120,24 +121,23 @@ section {
 /* Characteristics */
 
 .characteristics {
-	background-color: #FF6600; 
+	background-color: #3D3D3D; 
 	color: white; 
 }
+.caracteristiques {
+    margin-bottom: 7vh; 
+}
 
-/*
-.fa-4x { 
-	line-height: inherit;
-} 
-*/
-
-
+.description {
+    margin-bottom: 8vh;
+}
 /* How it works */
 
 
 /* Preorder */
 
 .preorder {
-	background-color: #FF6600; 
+	background-color: #3D3D3D; 
 	color: white; 
 }
 
@@ -152,7 +152,7 @@ section {
 /* About us */
 
 .aboutUs {
-	background-color: #FF6600; 
+	background-color: #3D3D3D; 
 	color: white; 
 }
 
@@ -163,5 +163,5 @@ section {
 /* Footer */
 
 footer {
-	background-color: grey;
+	background-color: #3D3D3D;
 }
