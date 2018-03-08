@@ -10,17 +10,21 @@ html, body {
 	padding: 0 10vw; 
 }
 
-h3
-{
+h3 {
 	font-size: 2em;
 	padding-top: 5%;
 	padding-bottom: 5%; 
 
 }
-p
-{
+
+p {
 	line-height: 200%; 
 }
+
+section {
+    padding: 50px 0 50px 0;
+}
+
 /* Header */
 
 .header {
@@ -97,10 +101,6 @@ p
 
 /* Preorder */
 
-.form-control {
-	width: 30vw; 
-}
-
 #preorder {
 	background-color: #FF6600; 
 	color: white; 
@@ -120,10 +120,11 @@ p
 	background-color: #FF6600; 
 	color: white; 
 }
-.network
-{
+
+.network {
 
 }
+
 /* Footer */
 
 footer {
