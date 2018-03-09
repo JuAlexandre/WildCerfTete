@@ -1,5 +1,12 @@
 /* Global */
 
+@media (max-width: 764px) {
+    .header img {
+        position: relative;
+        top: -45px;
+    }
+}
+
 @font-face {
     font-family: 'Caviar Dreams';
     src: url('fonts/CaviarDreams.ttf');
@@ -64,15 +71,11 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(img/forest.jpg) no-repeat center center scroll;
+    background: url(img/forest2.jpg) no-repeat center center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.header .row:first-child {
-/*    height: 100vh;*/
 }
 
 .header .header-text {
@@ -95,7 +98,19 @@ section {
 .subtitle {
     font-family:'Open Sans';
     font-weight: 300;
-    font-size: calc(30px + (30 - 30) * (100vw - 400px) / 1200);
+    font-size: calc(27px + (30 - 27) * (100vw - 400px) / 1200);
+    line-height: 100%;
+}
+
+.available {
+    font-family:'Open Sans';
+    font-weight: 300;
+    font-size: calc(27px + (30 - 27) * (100vw - 400px) / 1200);
+    line-height: 100%;
+}
+
+.color-available {
+    color: #FF6600;
 }
 
 .btn-more-info {
