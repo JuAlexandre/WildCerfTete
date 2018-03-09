@@ -23,6 +23,10 @@ html, body {
     font-family: 'Open Sans';
 }
 
+body {
+    padding-top: 58px;
+}
+
 .text-justify {
 	padding: 0 10vw; 
 }
@@ -34,7 +38,6 @@ h2 {
     text-align: center;
     font-family: 'Caviar Dreams';
     color: #FF6600;
-
 }
 
 p {
@@ -52,7 +55,8 @@ section {
 }
 
 .bg-light {
-    background-color: rgba(255,255,255,0) !important;
+    background-color: rgba(255,255,255,1) !important;
+    border-bottom: solid 1px black;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
