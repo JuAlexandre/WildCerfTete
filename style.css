@@ -124,9 +124,12 @@ section {
     color: white;
     border: 3px solid #FF6600;
     border-radius: 7px;
-/*    padding: 7px 30px 7px 30px;*/
+
 }
 
+.btn-more-info:hover {
+    color: #FF6600; 
+}
 .btn-preorder {
     font-family:'Open Sans';
     font-weight: bold;
@@ -134,9 +137,11 @@ section {
     color: #FF6600;
     border: 3px solid #FF6600;
     border-radius: 7px;
-/*    padding: 7px 30px 7px 30px;*/
 }
 
+.btn-preorder:hover {
+    color: #3D3D3D;
+}
 .price {
     font-family:'Open Sans';
     font-weight: 300;
@@ -176,8 +181,6 @@ section {
 /* Photos */
 
 
-
-
 /* About us */
 
 .aboutUs {
@@ -197,5 +200,13 @@ section {
 /* Footer */
 
 footer {
-    
+    background-color: rgb(166, 166, 166); 
+    padding: 2vh 0; 
+}
+.footer {
+    color: white; 
+}
+.footer:hover {
+    text-decoration: none;
+    color: #3D3D3D; 
 }
