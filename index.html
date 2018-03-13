@@ -46,16 +46,14 @@
                     <p class="subtitle mb-4">Chantez avec les Cerfs.</p>
                     <p class="available mb-4">Disponible le <span class="color-available">16 mars 2018</span></p>
                        <div class="row clearfix">
-                            <div class="col-12 col-md-2 mb-2 text-center">
-                                <button class="btn btn-default btn-more-info ">En savoir +</button>
-                            </div>
-                            <div class="col-12 col-md-2 mb-2 text-center float-left">
-                                <button class="btn btn-default btn-preorder d-none d-md-block">Pré-commander *</button>
+                            <div class="col mb-2">
+                                <a href="#why" class="btn btn-default btn-more-info">En savoir +</a>
+                                <a href="#preorder" class="btn btn-default btn-preorder d-none d-md-inline">Pré-commander *</a>
                             </div>
                         </div>
                     
                     
-                    <p class="price">* A partir de 999 €</p>
+                    <p class="price d-none d-md-block">* A partir de 999 €</p>
                     
                 </div>
                 <div class="col-md-5 order-md-1 text-center text-sm-center text-md-center mb-5">
@@ -70,15 +68,15 @@
         
     </header>
 
-    <section>
+    <section id="why">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-4">
 
-                    <h2 id="why">Pourquoi le Cerf-Tête ?</h2>
+                    <h2>Pourquoi le Cerf-Tête ?</h2>
 
                 </div>
 
@@ -98,7 +96,8 @@
             
             <div class="row text-center">
                 <div class="col-12">
-                    <button class="btn btn-default btn-preorder d-block d-md-none">Pré-commander *</button>
+                    <a href="#preorder" class="btn btn-default btn-preorder d-inline d-md-none">Pré-commander *</a>
+                    <p class="price d-block d-md-none">* A partir de 999 €</p>
                 </div>
             </div>
 
@@ -106,15 +105,15 @@
 
     </section>
 
-    <section class="characteristics">
+    <section id="characteristics" class="characteristics">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-5">
 
-                    <h2 id="characteristics">Caractéristiques</h2>
+                    <h2>Caractéristiques</h2>
 
                 </div>
 
@@ -122,63 +121,83 @@
 
             <div class="row">
 
-                <div class="col-12 col-md-3 offset-md-1">
+                <div class="col-12 col-md-3">
                     <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/bluetooth.png" alt="Bluetooth" class="caracteristiques align-content-center">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/bluetooth.png" alt="Bluetooth" class="caracteristiques mx-auto my-auto">
                         </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p class="description">Casque bluetooth</p>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Casque bluetooth</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/battery.png" alt="Batterie" class="caracteristiques align-content-center">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/battery.png" alt="Batterie" class="caracteristiques mx-auto my-auto">
                         </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p  class="description">Autonomie 2h, batterie lithium</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/wifi-signal-tower.png" alt="Portée" class="caracteristiques align-content-center">
-                        </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p class="description">Portée 50 mètres</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 offset-md-1">
-                    <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/smartphone-call.png" alt="Smartphone" class="caracteristiques align-content-center">
-                        </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p class="description">Relié à une appli smartphone (IOS et Android) pour retranscrire les messages</p>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p  class="description mx-md-auto my-auto">Autonomie 2h, batterie lithium</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/euro-symbol.png" alt="Certification" class="caracteristiques align-content-center">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/wifi-signal-tower.png" alt="Portée" class="caracteristiques mx-auto my-auto">
                         </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p class="description">Certifié conforme EU</p>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Portée de 50 mètres</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/smartphone-call.png" alt="Smartphone" class="caracteristiques mx-auto my-auto">
+                        </div>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Relié à votre smartphone (IOS et Android) pour retranscrire les messages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/euro-symbol.png" alt="Certification" class="caracteristiques mx-auto my-auto">
+                        </div>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Certifié conforme EU</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 ">
                     <div class="row">
-                        <div class="col-4 col-md-12 text-md-center">
-                            <img src="img/earth-grid-select-language-button.png" alt="Langue" class="caracteristiques align-content-center">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/earth-grid-select-language-button.png" alt="Langue" class="caracteristiques mx-auto my-auto">
                         </div>
-                        <div class="col-8 col-md-12 text-md-center">
-                            <p class="description">4 langues disponibles (anglais, français, espagnol, japonais)</p>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Disponible en Anglais, Français, Espagnol et Japonais</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="row">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/diploma.png" alt="Langue" class="caracteristiques mx-auto my-auto">
+                        </div>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">4 brevets déposés</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="row">
+                        <div class="col-4 col-md-12 text-md-center d-flex mb-5 mb-lg-2">
+                            <img src="img/weight.png" alt="Langue" class="caracteristiques mx-auto my-auto">
+                        </div>
+                        <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
+                            <p class="description mx-md-auto my-auto">Fabriqué en polymère pour une poid réduit</p>
                         </div>
                     </div>
                 </div>
@@ -189,15 +208,15 @@
 
     </section>
 
-    <section>
+    <section id="howItWorks">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-4">
 
-                    <h2 id="howItWorks">Comment ça marche ?</h2>
+                    <h2>Comment ça marche ?</h2>
 
                 </div>
 
@@ -208,7 +227,7 @@
                 <div class="col-12">
 
                     <p class="text-justify">
-                        Le Wild Cerf-Tête lit les ondes cérébrales du porteur qui sont transmis via les bois qui sont des antennes. Ensuite, une IA traduit ces ondes en langage comprehensible par le cerf. Le processus est aussi disponible dans l'autre sens, c'est-à-dire qu'il vous sera possible de comprendre le cerf ! 4 brevets déposés.
+                        Le Wild Cerf-Tête lit les ondes cérébrales du porteur qui sont transmis via les bois qui sont des antennes. Ensuite, une IA traduit ces ondes en langage compréhensible par le cerf. Le processus est aussi disponible dans l'autre sens, c'est-à-dire qu'il vous sera possible de comprendre le cerf !
                     </p>
 
                 </div>
@@ -219,15 +238,15 @@
 
     </section>
 
-    <section class="preorder">
+    <section id="preorder" class="preorder">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-4">
 
-                    <h2 id="preorder">Je veux mon Cerf-Tête</h2>
+                    <h2>Je veux mon Cerf-Tête</h2>
 
                 </div>
 
@@ -235,9 +254,9 @@
 
             <div class="row align-items-center">
 
+<!--
                 <div class="col-md-2 offset-md-2">
 
-                    <!--<i class="fa fa-shopping-basket d-none d-md-block img-fluid fa-4x"></i>-->
                     <img src="img/shopping-cart-128.png" alt="Chariot" class="d-none d-md-block img-fluid">
 
                 </div>
@@ -252,6 +271,30 @@
                         </div>
                     </form>
                 </div>
+-->
+                <div class="col">
+                    <img src="img/shopping-cart-128.png" alt="Chariot" class="d-none d-md-block img-fluid">
+                </div>
+                
+                <div class="col">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Nom</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ton nom">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="firstname">Prénom</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="Tom prénom">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="email@example.fr">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
 
             </div>
 
@@ -259,15 +302,15 @@
 
     </section>
 
-    <section>
+    <section id="pics">
 
         <div class="container clearfix">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-4">
 
-                    <h2 id="pics">Galerie photo</h2>
+                    <h2>Galerie photo</h2>
 
                 </div>
 
@@ -276,20 +319,20 @@
             <div class="row">
 
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/scientific.jpg" alt="" class="img-fluid float-md-right picture">
+                    <img src="img/scientific.jpg" alt="" class="img-fluid float-md-right mb-4">
                 </div>
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/open_space.jpg" alt="" class="img-fluid float-md-left picture">
+                    <img src="img/open_space.jpg" alt="" class="img-fluid float-md-left mb-4">
                 </div>
 
             </div>
             <div class="row">
 
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/Elon_musk.jpg" alt="" class="img-fluid float-md-right picture">
+                    <img src="img/Elon_musk.jpg" alt="" class="img-fluid float-md-right mb-4">
                 </div>
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/electronique.jpg" alt="" class="img-fluid float-md-left picture">
+                    <img src="img/electronique.jpg" alt="" class="img-fluid float-md-left mb-4">
                 </div>
 
             </div>
@@ -298,50 +341,45 @@
 
     </section>
 
-    <section class="aboutUs">
+    <section id="aboutUs" class="aboutUs">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pb-4">
 
-                    <h2 id="aboutUs">À propos de nous</h2>
+                    <h2>À propos de nous</h2>
 
                 </div>
 
             </div>
 
             <div class="row">
-
-                <div class="col-md-10 col-12">
-
+                
+                <div class="col-12 d-flex pb-4">
+                    
+                    <img src="img/logo_seul.png" alt="WildX" class="d-none d-md-block img-fluid mx-auto my-auto logo">
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                
+                <div class="col-12">
+                    
                     <p class="text-justify">
                         La société WildX vous emmène vers de nouveaux horizons depuis 2005 ! Le jeune multimilliardaire Élan Musk et toute son équipe ont, grâce à toute la technologie moderne dont ils disposent, voulu révolutionner le rapport entre les Hommes et les animaux. C'est chose faite grâce au premier Cerf-Tête connecté du monde !
                     </p>
-
+                    <p class="text-center">
+                        <i class="fab fa-facebook-square img-fluid fa-4x network mr-3"></i>
+                        <i class="fab fa-twitter-square img-fluid fa-4x network mr-3"></i>
+                        <i class="fab fa-instagram img-fluid fa-4x network"></i>
+                    </p>
+                    
                 </div>
-                <div class="col-md-2 text-md-left">
-
-                    <img src="img/logo_seul.png" alt="" class="d-none d-md-block img-fluid">
-
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-2 col-md-1 offset-md-2">
-                    <i class="fab fa-facebook-square img-fluid fa-4x network"></i>
-                </div>
-                <div class="col-2 col-md-1">
-                    <i class="fab fa-twitter-square img-fluid fa-4x network"></i>
-                </div>
-                <div class="col-2 col-md-1">
-                    <i class="fab fa-instagram img-fluid fa-4x network"></i>
-                </div>
-
-
+                
             </div>
 
         </div>
