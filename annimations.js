@@ -26,11 +26,4 @@ $(document).ready(function(){
     navMain.on("click", "a:not([data-toggle])", null, function () {
         navMain.collapse('hide');
     });
-    
-//    $('.caracteristiques').mouseenter(function() {
-//        $('img').attr('src', 'img/bluetooth.png');
-//    });
-//    $('.caracteristiques').mouseenter(function() {
-//        $('img').attr('src', 'img/bluetooth.png');
-//    });
 });

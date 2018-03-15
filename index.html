@@ -9,9 +9,9 @@
     <title>Wild Cerf-Tête</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="modal.css">
 
 </head>
 
@@ -69,7 +69,7 @@
     </header>
 
     <section id="why">
-
+        
         <div class="container">
 
             <div class="row">
@@ -104,7 +104,7 @@
         </div>
 
     </section>
-
+    
     <section id="characteristics" class="characteristics">
 
         <div class="container">
@@ -197,7 +197,7 @@
                             <img src="img/weight.png" alt="Langue" class="caracteristiques mx-auto my-auto">
                         </div>
                         <div class="col-8 col-md-12 text-md-center d-flex mb-5 mb-lg-5">
-                            <p class="description mx-md-auto my-auto">Fabriqué en polymère pour une poid réduit</p>
+                            <p class="description mx-md-auto my-auto">Fabriqué en polymère pour un poids réduit</p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                 <div class="col-12">
 
                     <p class="text-justify">
-                        Le Wild Cerf-Tête lit les ondes cérébrales du porteur qui sont transmis via les bois qui sont des antennes. Ensuite, une IA traduit ces ondes en langage compréhensible par le cerf. Le processus est aussi disponible dans l'autre sens, c'est-à-dire qu'il vous sera possible de comprendre le cerf !
+                        Le Wild Cerf-Tête lit les ondes cérébrales du porteur qui sont transmises via les bois qui sont des antennes. Ensuite, une IA traduit ces ondes en langage compréhensible par le cerf. Le processus est aussi disponible dans l'autre sens, c'est-à-dire qu'il vous sera possible de comprendre le cerf !
                     </p>
 
                 </div>
@@ -300,26 +300,28 @@
 
             <div class="row">
 
-                <div class="col-md-6 col-12 text-center ">
-                    <img id="myImg" src="img/Elon_musk.jpg" alt="Elan Musk" class="img-fluid float-md-right mb-4">
-                    <div class="modal" id="myModal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <div id="caption"></div>
-                    </div>
+                <div class="col-md-6 col-12 text-center">
+                    <a data-fancybox="images" href="img/Elon_musk.jpg">
+                        <img src="img/Elon_muskmini.jpg" alt="Elan Musk" class="img-fluid float-md-right mb-4">
+                    </a>
                 </div>
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/open_space.jpg" alt="Open Space" class="img-fluid float-md-left mb-4">
+                    <a data-fancybox="images" href="img/open_space.jpg">
+                        <img src="img/open_spacemini.jpg" alt="Open Space" class="img-fluid float-md-left mb-4">
+                    </a>
                 </div>
 
             </div>
             <div class="row">
-
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/reindeer.jpg" alt="Reindeer" class="img-fluid float-md-right mb-4">
+                    <a data-fancybox="images" href="img/reindeer.jpg">
+                        <img src="img/reindeermini.jpg" alt="Reindeer" class="img-fluid float-md-right mb-4">
+                    </a>
                 </div>
                 <div class="col-md-6 col-12 text-center">
-                    <img src="img/stag.jpg" alt="Stag" class="img-fluid float-md-left mb-4">
+                    <a data-fancybox="images" href="img/stag.jpg">
+                        <img src="img/stagmini.jpg" alt="Stag" class="img-fluid float-md-left mb-4">
+                    </a>
                 </div>
 
             </div>
@@ -394,8 +396,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script defer src="fontawesome.js"></script>
     <script src="annimations.js"></script>
-    <script src="modal.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+        $('[data-fancybox]').fancybox({
+          buttons : [
+            'close'
+          ]
+        })
+    </script>
 </body>
 
 </html>
