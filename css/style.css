@@ -9,12 +9,12 @@
 
 @font-face {
     font-family: 'Caviar Dreams';
-    src: url('fonts/CaviarDreams.ttf');
+    src: url('../fonts/CaviarDreams.ttf');
 }
 
 @font-face {
     font-family: 'Caviar Dreams Bold';
-    src: url('fonts/CaviarDreams_Bold.ttf');
+    src: url('../fonts/CaviarDreams_Bold.ttf');
 }
 
 html, body {
@@ -25,10 +25,6 @@ html, body {
 
 body {
     padding-top: 58px;
-}
-
-.text-justify {
-	padding: 0 8vw;
 }
 
 h2 {
@@ -44,15 +40,8 @@ section {
     padding: 78px 0 78px 0;
 }
 
-.form-control {
-    border: 1px solid #FF6600;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-.form-control:focus {
-    border: 2px solid #FF6600;
-    box-shadow: #FF6600;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+.text-justify {
+	padding: 0 8vw;
 }
 
 
@@ -86,12 +75,9 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(img/forest2.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     background-attachment: fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .header .header-text {
@@ -102,9 +88,6 @@ section {
     font-size: calc(29px + (46 - 29) * (100vw - 400px) / 1200);
     font-family: 'Caviar Dreams Bold';
     color: #FF6600;
-    /*
-        calc(police_min px + (police_max - police_min) * (100vw - 400px) / (resolution_max - resolution_min))
-    */
 }
 
 .header .header-text h1 .title-color {
@@ -136,12 +119,12 @@ section {
     color: white;
     border: 3px solid #FF6600;
     border-radius: 7px;
-
 }
 
 .btn-more-info:hover {
     color: #FF6600; 
 }
+
 .btn-preorder {
     font-family:'Open Sans';
     font-weight: bold;
@@ -154,6 +137,7 @@ section {
 .btn-preorder:hover {
     color: #3D3D3D;
 }
+
 .price {
     font-family:'Open Sans';
     font-weight: 300;
@@ -177,10 +161,6 @@ section {
 
 
 
-/* How it works */
-
-
-
 /* Preorder */
 
 .preorder {
@@ -188,10 +168,15 @@ section {
 	color: white; 
 }
 
+.form-control {
+    border: 1px solid #FF6600;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
-
-/* Photos */
-
+.form-control:focus {
+    border: 2px solid #FF6600;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 
 
@@ -207,30 +192,34 @@ section {
 }
 
 
+
 /* Footer */
 
 footer {
-
-
     color: #3D3D3D; 
     line-height: 100%; 
     padding: 0; 
     margin: 0; 
 }
+
 .footer {
     color: #3D3D3D;
     font-size: 0.8em; 
 }
+
 .footer:hover {
     text-decoration: none;
     color: #FF6600; 
 }
+
 h6 {
     color: #FF6600; 
 }
+
 hr {
    margin: 0; 
 }
+
 .contact_footer {
     font-size: 0.8em; 
 }
