@@ -205,12 +205,6 @@ section {
     height: 200px;
 }
 
-.network:hover {
-    color: #FF6600;
-    transition: color 0.4s;
-    cursor: pointer;
-}
-
 
 /* Footer */
 
@@ -238,4 +232,9 @@ hr {
 }
 .contact_footer {
     font-size: 0.8em; 
+}
+
+.fa-2x:hover {
+    color: #FF6600; 
+    
 }
