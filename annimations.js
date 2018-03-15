@@ -19,15 +19,18 @@ $(document).ready(function(){
             });
         } // End if
     });
+    
+    
+    // Navbar
+    var navMain = $(".navbar-collapse"); // avoid dependency on #id
+    navMain.on("click", "a:not([data-toggle])", null, function () {
+        navMain.collapse('hide');
+    });
+    
+//    $('.caracteristiques').mouseenter(function() {
+//        $('img').attr('src', 'img/bluetooth.png');
+//    });
+//    $('.caracteristiques').mouseenter(function() {
+//        $('img').attr('src', 'img/bluetooth.png');
+//    });
 });
-
-
-// Close navbar when you click on link
-$(function(){ 
-     var navMain = $(".navbar-collapse"); // avoid dependency on #id
-     // "a:not([data-toggle])" - to avoid issues caused
-     // when you have dropdown inside navbar
-     navMain.on("click", "a:not([data-toggle])", null, function () {
-         navMain.collapse('hide');
-     });
- });
