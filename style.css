@@ -208,19 +208,34 @@ section {
 .network:hover {
     color: #FF6600;
     transition: color 0.4s;
+    cursor: pointer;
 }
 
 
 /* Footer */
 
 footer {
-    background-color: rgb(166, 166, 166); 
-    padding: 2vh 0; 
+
+
+    color: #3D3D3D; 
+    line-height: 100%; 
+    padding: 0; 
+    margin: 0; 
 }
 .footer {
-    color: white; 
+    color: #3D3D3D;
+    font-size: 0.8em; 
 }
 .footer:hover {
     text-decoration: none;
-    color: #3D3D3D; 
+    color: #FF6600; 
+}
+h6 {
+    color: #FF6600; 
+}
+hr {
+   margin: 0; 
+}
+.contact_footer {
+    font-size: 0.8em; 
 }
