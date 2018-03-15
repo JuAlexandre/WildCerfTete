@@ -46,6 +46,41 @@ section {
 
 
 
+/* Back to top */
+
+#return-to-top {
+    position: fixed;
+    z-index:10;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+#return-to-top img {
+    margin: 0;
+    position: relative;
+    left: 13px;
+    top: 10px;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover img {
+    top: 5px;
+}
+
+
+
 /* Navbar */
 
 .navbar-brand img {
