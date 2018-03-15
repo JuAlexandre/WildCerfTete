@@ -11,6 +11,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="modal.css">
 
 </head>
 
@@ -300,8 +301,12 @@
             <div class="row">
 
                 <div class="col-md-6 col-12 text-center ">
-                    <img src="img/Elon_musk.jpg" alt="Elan Musk" class="img-fluid float-md-right mb-4">
-                    
+                    <img id="myImg" src="img/Elon_musk.jpg" alt="Elan Musk" class="img-fluid float-md-right mb-4">
+                    <div class="modal" id="myModal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12 text-center">
                     <img src="img/open_space.jpg" alt="Open Space" class="img-fluid float-md-left mb-4">
@@ -389,6 +394,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script defer src="fontawesome.js"></script>
     <script src="annimations.js"></script>
+    <script src="modal.js"></script>
 
 </body>
 
