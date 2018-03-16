@@ -214,6 +214,13 @@ section {
 }
 
 
+/* Photos */
+
+.photo:hover {
+    opacity: 0.8;
+}
+
+
 
 /* About us */
 
