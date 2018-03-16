@@ -10,3 +10,9 @@ Vous pouvez y accéder ici : https://jualexandre.github.io/WildCerfTete
 ![](header.png)
 
 Ce site a été imaginé et réalisé par Louise ROY et Julien ALEXANDRE.
+
+## Mockups
+
+![](mochups/001.jpg)
+
+![](mochups/002.jpg)
