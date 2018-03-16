@@ -13,6 +13,6 @@ Ce site a été imaginé et réalisé par Louise ROY et Julien ALEXANDRE.
 
 ## Mockups
 
-![](mochups/001.jpg)
+![](mockups/001.jpg)
 
-![](mochups/002.jpg)
+![](mockups/002.jpg)
