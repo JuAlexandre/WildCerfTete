@@ -22,7 +22,7 @@ $(document).ready(function(){
     
     // ===== Scroll to Top ==== 
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
+        if ($(this).scrollTop() >= 300) {        // If page is scrolled more than 300px
             $('#return-to-top').fadeIn(200);    // Fade in the arrow
         } else {
             $('#return-to-top').fadeOut(200);   // Else fade out the arrow
