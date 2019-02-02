@@ -1,20 +1,29 @@
 # Wild Cerf-Tête
 
-> https://jualexandre.github.io/WildCerfTete
+![](doc/header.png)
 
-![](header.png)
+## Instruction
 
-Wild Code School 2018 Orléans - Projet 1
+First project of simulation of the Orleans Wild Code School.
+Our trainers play the role of customers.
+They order us a site to promote their revolutionary new product: a connected headband to communicate with deer!
 
-Creation of a showcase website for the launch of a revolutionary connected headband for dialogue with the deer. This product is marketed by the fictional company WildX.
+## Description
+
+Creation of a showcase website for the launch of a revolutionary connected headband for dialogue with the deer.
+This product is marketed by the fictional company WildX.
 
 ## Mockups
 
-![](mockups/001.jpg)
+![](doc/mockups/001.jpg)
 
-![](mockups/002.jpg)
+![](doc/mockups/002.jpg)
+
+## See the result
+
+https://jualexandre.github.io/wild-cerf-tete
 
 ## Authors
 
-* **Louise ROY - [Louisejesuis](https://github.com/Louisejesuis/)
-* **Julien ALEXANDRE - [JuAlexandre](https://github.com/JuAlexandre/)
+* Louise ROY - [Louisejesuis](https://github.com/Louisejesuis/)
+* Julien ALEXANDRE - [JuAlexandre](https://github.com/JuAlexandre/)
