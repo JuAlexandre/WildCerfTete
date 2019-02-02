@@ -2,7 +2,7 @@
 
 ![](doc/header.png)
 
-## Instruction
+## Instructions
 
 First project of simulation of the Orleans Wild Code School.
 Our trainers play the role of customers.
